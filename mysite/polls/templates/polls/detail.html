@@ -1,0 +1,6 @@
+<h1>{{ product }}</h1>
+<ul>
+{% for promotion in product.promotion_set.all %}
+    <li>{{ promotion }}</li>
+{% endfor %}
+</ul>

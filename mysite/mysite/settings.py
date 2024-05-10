@@ -85,7 +85,7 @@ DATABASES = {
         'USER': getenv('PG_USER'),
         'PASSWORD': getenv('PG_PASSWORD'),
         'HOST': getenv('PG_HOST'),
-        'PORT': getenv('PG_PORT'),
+        'PORT': getenv('PG_PORT')
         # 'OPTIONS': {'options': '-c search_path=public,myschema'},
         # 'TEST': {
         #     'NAME': 'test_db',
@@ -116,7 +116,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'Europe/Moscow'
 
